@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>🎁 Gift Roulette</title>
+  <link rel="stylesheet" href="styles.css"/>
+  <script src="https://telegram.org/js/telegram-web-app.js"></script>
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Gift Roulette</h1>
+    <input type="text" id="giftInput" placeholder="Введите название подарка" />
+    <button onclick="addGift()">Добавить подарок</button>
+    <button onclick="pickWinner()">Выбрать победителя</button>
+    <div id="gifts"></div>
+    <div id="winner"></div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

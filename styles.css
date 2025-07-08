@@ -1,0 +1,26 @@
+body {
+  background: linear-gradient(to right, #141e30, #243b55);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #fff;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+.wrapper {
+  padding: 20px;
+}
+input, button {
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+}
+button {
+  background-color: #00d4ff;
+  color: white;
+  cursor: pointer;
+}
+#gifts, #winner {
+  margin-top: 20px;
+}
